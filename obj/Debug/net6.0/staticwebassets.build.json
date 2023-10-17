@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "umUK4IkasufWzKApQIM4l+P5ZiZVolvye+tTx0g7Zyg=",
+  "Source": "PortafolioII",
+  "BasePath": "_content/PortafolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortafolioII\\wwwroot",
+      "Source": "PortafolioII",
+      "ContentRoot": "C:\\Users\\cesar\\Desktop\\Bootcamp ahora si\\ASP\\PortafolioII\\wwwroot\\",
+      "BasePath": "_content/PortafolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\cesar\\Desktop\\Bootcamp ahora si\\ASP\\PortafolioII\\wwwroot\\css\\style.css",
+      "SourceId": "PortafolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cesar\\Desktop\\Bootcamp ahora si\\ASP\\PortafolioII\\wwwroot\\",
+      "BasePath": "_content/PortafolioII",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\cesar\\Desktop\\Bootcamp ahora si\\ASP\\PortafolioII\\wwwroot\\Imagenes\\perfil.jpg",
+      "SourceId": "PortafolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cesar\\Desktop\\Bootcamp ahora si\\ASP\\PortafolioII\\wwwroot\\",
+      "BasePath": "_content/PortafolioII",
+      "RelativePath": "Imagenes/perfil.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\perfil.jpg"
+    }
+  ]
+}

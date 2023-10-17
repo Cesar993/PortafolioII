@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.block1 {
+
+    height: 100%;
+    width: 70%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav li {
+    text-decoration: none;
+
+}
+
+.block2 {
+    display: flex;
+    justify-content: center;
+    height: 10vw;
+    align-items: center;
+}
+
+.block2 h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+
+}
+
+.imgPerfil {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30vw;
+    align-items: center;
+
+}
+
+.imgPerfil img {
+    height: 26vw;
+    width: 20vw;
+    filter: grayscale(100%);
+}
+
+.imgPerfil h1,
+h2 {
+    color: black;
+    font-family: Arial, sans-serif;
+
+}
+
+.description {
+    display: flex;
+    height: 100%;
+    width: 50vw;
+}
+
+.description div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.description p {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.imgProject {
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+}
+
+.imgProject img {
+    height: 15vw;
+}
+
+.block4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+
+
+}
+
+.infoProject {
+    font-size: 1vw;
+}
+
+.contactForm {
+    
+    padding: 18px;
+    font-size: 24px;
+    margin: 10px;
+    display: flex;
+    gap :10px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.submit-btn{
+    border: 1px solid black;
+    background-color: #FFD966;
+    color: black;
+    height: 28px;
+    width: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: double;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    
+}

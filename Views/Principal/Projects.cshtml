@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/style.css">
+    <title>Projects</title>
+</head>
+<body>
+    <div class="block1">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>|</li>
+                <li><a href="/Projects">Projects</a></li>
+                <li>|</li>
+                <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="block2">
+            <h1>My projects</h1>
+        </div>
+        <div class="block4">
+            @{
+                for(int i =0; i< 4; i++){
+
+            <div class="imgProject">
+                <img src="~/imagenes/perfil.jpg" alt="Imagen perfil">
+                <div class="infoProject">
+
+                <h2>Chuu Project</h2>
+                <p>SmartInventory is a cutting-edge inventory management software designed to streamline the inventory control process for businesses of all sizes. It empowers organizations to efficiently manage their stock levels, track inventory movements, and optimize supply chain operations. With its user-friendly interface and advanced features, SmartInventory revolutionizes how businesses handle their inventories, leading to improved efficiency, reduced costs, and enhanced profitability.</p>
+                </div>
+            </div>
+                }
+            }
+
+        </div>
+
+    </div>
+</body>
+</html>
